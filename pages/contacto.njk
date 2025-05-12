@@ -1,0 +1,52 @@
+{% extends 'layout.njk' %}
+
+{% block head %}
+  <title>Contact</title>
+  <style>
+    #map {
+      height: 500px;
+      margin-bottom: 20px;
+    }
+
+    form-style:focus,
+    input:focus,
+    select:focus,
+    textarea:focus {
+      border-bottom: 3px solid;
+      border-color: #00fa99 !important;
+    }
+  </style>
+{% endblock %}
+
+{% block body %}
+  <div class="bloc l-bloc" id="bloc-15">
+    <div class="container bloc-lg">
+      <div class="row" style="display: flex;justify-content: center;">
+        <div class="col-sm-8 col-lg-7">
+          <h2 class="dark-color h2-¡contáctanos--style mg-sm">Contact Us!</h2>
+
+          <form id="form_1" data-form-type="blocs-form" data-api-url="{{ config.apiUrl }}/contact/mail" novalidate="novalidate" data-success-msg="Your message has been sent." data-fail-msg="Could not register contact. Please try again later.">
+            <div class="form-group">
+              <input id="name" class="form-control form-style" required="required" placeholder="Name"/>
+            </div>
+            <div class="form-group">
+              <input id="email" class="form-control form-style" type="email" data-error-validation-msg="Not a valid email address" required="required" placeholder="E-mail"/>
+            </div>
+            <div class="form-group">
+              <textarea id="message" class="form-control form-style" rows="6" cols="50" required="required" placeholder="Tell us about yourself and we'll see how we can help!"></textarea>
+            </div>
+            <button class="bloc-button btn btn-d btn-lg btn-block primary-color-bg main-btn" type="submit">
+              Send
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+{% endblock %}
+
+{% block scripts %}
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/formHandler.js"></script>
+{% endblock %}

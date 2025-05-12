@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
+<loc>Pascal.mx</loc>
+<lastmod>2025-05-11</lastmod>
+<changefreq>Weekly</changefreq>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>Pascal.mx/quienes-somos</loc>
+<lastmod>2025-05-11</lastmod>
+<changefreq>Weekly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>Pascal.mx/servicios</loc>
+<lastmod>2025-05-11</lastmod>
+<changefreq>Weekly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>Pascal.mx/contacto</loc>
+<lastmod>2025-05-11</lastmod>
+<changefreq>Weekly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>Pascal.mx/preguntas-frecuentes</loc>
+<lastmod>2025-05-11</lastmod>
+<changefreq>Weekly</changefreq>
+<priority>0.5</priority>
+</url>
+</urlset>

@@ -1,0 +1,128 @@
+{% extends 'layout.njk' %}
+
+{% block head %}
+	<title>preguntas frecuentes</title>
+{% endblock %}
+
+{% block body %}
+	<div class="bloc l-bloc" id="frequently-asked-questions">
+		<div class="container bloc-lg">
+			<div class="row">
+				<div class="col">
+					<h2 class="mg-md text-center">Frequently Asked Questions</h2>
+					<div class="accordion" id="faqAccordion">
+
+						<div class="card">
+							<div class="card-header text-center" id="headingOne">
+								<h5 class="mb-0">
+									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+									What types of IT services do you offer?
+								</button>
+								</h5>
+							</div>
+
+							<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#faqAccordion">
+								<div class="card-body text-center">
+								We offer a wide range of IT services including custom software development, web design and development, mobile application development, IT consulting, cloud solutions, network support, cybersecurity services, and more. Our services are tailored to meet the specific needs of your business.
+							</div>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="card-header text-center" id="headingTwo">
+								<h5 class="mb-0">
+									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									What is your process for starting a new project?
+								</button>
+								</h5>
+							</div>
+							<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+								<div class="card-body text-center">
+								Our process typically begins with an initial consultation to understand your goals and requirements. We then propose a solution, followed by planning, design, development, testing, and deployment. We maintain open communication throughout the entire process.
+							</div>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="card-header text-center" id="headingThree">
+								<h5 class="mb-0">
+									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									How much do your IT services cost?
+								</button>
+								</h5>
+							</div>
+							<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
+								<div class="card-body text-center">
+								The cost of our services varies depending on the complexity and scope of the project. We provide customized quotes based on your specific needs after an initial assessment. Contact us for a detailed estimate.
+							</div>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="card-header text-center" id="headingFour">
+								<h5 class="mb-0">
+									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+									What is your typical turnaround time for projects?
+								</button>
+								</h5>
+							</div>
+							<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqAccordion">
+								<div class="card-body text-center">
+								Project timelines depend on the complexity and features involved. We provide estimated timelines during the project proposal phase and strive to deliver high-quality solutions within the agreed timeframe.
+							</div>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="card-header text-center" id="headingFive">
+								<h5 class="mb-0">
+									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+									Do you offer ongoing support and maintenance?
+								</button>
+								</h5>
+							</div>
+							<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#faqAccordion">
+								<div class="card-body text-center">
+								Yes, we offer ongoing support and maintenance packages to ensure your IT systems and software continue to run smoothly and efficiently. We can tailor support plans to your specific requirements.
+							</div>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="card-header text-center" id="headingSix">
+								<h5 class="mb-0">
+									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+									What technologies do you work with?
+								</button>
+								</h5>
+							</div>
+							<div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#faqAccordion">
+								<div class="card-body text-center">
+								We work with a wide range of technologies, including but not limited to: JavaScript, Python, Java, .NET, React, Angular, Node.js, various database systems (SQL, NoSQL), and cloud platforms (AWS, Azure, Google Cloud). Our technology stack is adaptable to your project needs.
+							</div>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="card-header text-center" id="headingSeven">
+								<h5 class="mb-0">
+									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+									How do I get started with your services?
+								</button>
+								</h5>
+							</div>
+							<div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#faqAccordion">
+								<div class="card-body text-center">
+								The best way to get started is to contact us through our website or by phone. We'll schedule a consultation to discuss your needs and how our IT services can help your business succeed.
+							</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+{% endblock %}
+
+{% block scripts %}{% endblock %}
