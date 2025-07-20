@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "eleventy",
+    "build": "eleventy && npx cpx \"php/**/*\" dist/php",
     "start": "eleventy --serve"
   },
   "devDependencies": {
